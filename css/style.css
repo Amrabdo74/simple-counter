@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: url(../images/background.jpg) center center / cover no-repeat;
+    color: #fff;
+}
+
+.counter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.counter h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.counter h2 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+input {
+    margin-top: 80px;
+    background-color: #2196f3;
+
+    padding: 10px 25px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
